@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="history.css">
 </head>
 <body>
     <?php 
-        echo "The once was a man named John";
-        echo "He was 35";
-        echo "He really liked the name John";
-        echo "But didn´t like being 35";
+        $characterName = "Felipe";
+        $characterAge = 28;
+        echo "The once was a man named $characterName <br>";
+        echo "He was $characterAge <br>";
+        echo "He really liked the name $characterName <br>";
+        echo "But didn´t like being $characterAge <br>";
     ?>
 </body>
 </html>
